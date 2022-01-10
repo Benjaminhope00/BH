@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fargequiz</title>
+</head>
+<body>
+    <h1 style="color: cornflowerblue;">Velkommen til denne vanskelige quizen</h1>
+
+    <hr>
+    <h3>Hvilken farge er hovedoverskriften?</h3>
+<h2>Den er:</h2>
+<h3 onclick="action1()" id="a1">Rød</h3>
+<h3 onclick="action2()" id="a2">Grønn</h3>
+<h3 onclick="action3()" id="a3">Blå</h3>
+<h3 onclick="action4()" id="a4">Gul</h3>
+
+<script>
+function action1() {
+    document.getElementById("a1").innerHTML = "Rød - FEIL";
+
+}
+function action2() {
+    document.getElementById("a2").innerHTML = "Grønn - FEIL";
+
+}
+function action3() {
+   document.getElementById("a3").innerHTML = "Blå - !RIKTIG!";
+    
+}
+function action4() {
+    document.getElementById("a4").innerHTML = "Gul - FEIL";
+
+}
+</script>
+
+</body>
+</html>
